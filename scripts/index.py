@@ -9,7 +9,7 @@ import gradio as gr
 class Script(scripts.Script):
     def title(self):
         print('title')
-        pass
+        return 'read from png extension'
 
     def ui(self, is_img2img):
         checkbox_iterate = gr.Checkbox(label="我的内容", value=False)

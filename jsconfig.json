@@ -1,0 +1,11 @@
+{
+    "include": [
+        "javascript"
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "rootDir": "./javascript",
+        "alwaysStrict": true,
+        "module": "CommonJS"
+    }
+}
